@@ -4,7 +4,7 @@ The sum of a subtree is the sum of all the node values in that subtree, includin
 
 Given a binary tree of integers, find the most frequent sum (or sums) of its subtrees.
 
-Example
+## Example
 
 For
 t = {
@@ -27,26 +27,28 @@ mostFrequentSum(t) = [2, 3, 6].
 Since all the sum values in this tree occur only once, return all of them in ascending order.
 
 For
-t = {
-    "value": -2,
-    "left": {
-        "value": -3,
-        "left": null,
-        "right": null
-    },
-    "right": {
+t = 
+{
+"value": -2,
+"left": {
+"value": -3,
+left": null,
+"right": null
+},
+    "right": {    
         "value": 2,
         "left": null,
         "right": null
     }
 }
+
 the output should be
 mostFrequentSum(t) = [-3].
 2nd example
 
 There are 3 subtree sums for this tree: -2 + (-3) + 2 = -3, -3, and -2. The most frequent sum is -3 since it appears twice.
 
-Input/Output
+## Input/Output
 
 [execution time limit] 3 seconds (cs)
 
